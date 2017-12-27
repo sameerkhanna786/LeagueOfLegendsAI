@@ -1,18 +1,16 @@
 import java.awt.AWTException;
 import java.awt.Robot;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
 import java.awt.MouseInfo;
-import java.awt.GridLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseEvent;
-import java.util.Random;
-import java.awt.KeyEventDispatcher;
-import java.awt.KeyboardFocusManager;
 
 public class Mouse_Coordinates_Getter {
+
+    /**
+     * This file contains code that outputs the current location of the cursor.
+     * To run it, simply move the curosr to the current location and keep it there until its location is output.
+     * This program keeps running forever in order to allow as much data collection as desired; to stop collecting data,
+     * terminate the program.
+     */
+
     static double x = MouseInfo.getPointerInfo().getLocation().x;
     static double y = MouseInfo.getPointerInfo().getLocation().y;
     Robot robot = new Robot();

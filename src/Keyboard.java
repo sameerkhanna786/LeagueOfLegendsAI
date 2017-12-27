@@ -6,6 +6,21 @@ import java.awt.MouseInfo;
 import java.util.Random;
 
 public class Keyboard {
+
+    /**
+     * This program automatically runs through and visits each jungle camp, attacks it, and smites when needed.
+     * The bot even goes back to base after each camp in order to not lose too much health.
+     * Since everyone's screen resolutions are different, you will need to update the positions the program takes in using
+     * the given Mouse_Coordinates_Getter.java
+     *
+     * The first coordinate for each camp is the location to walk to.
+     * The second coordinate is the location needed to be clicked in order to attack.
+     *
+     * Reccomended champion to use with this bot is Aatrox. The champion was specifically choosen to fine tune the bot due
+     * to its name being first in champion select. The bot will work fine with other champions, but the bot may die in the jungle
+     * if the champion choice is not ideal. (Ex: Lulu)
+     */
+
     Robot robot = new Robot();
     static boolean need_random = false;
     static Random rand = new Random();
