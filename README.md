@@ -6,7 +6,7 @@ Note: IP has now been changed to be Blue Essence as of the November 2017. The bo
 
 DO NOT run this program in ranked games or Normal games. This is simply meant to benefit you, not ruin the game for others. Only run the bot in Coop vs AI.
 
-##Setup
+## Setup
 
 Set resolution to lowest resolution possible in order to conserve energy.
 Update the location of jungle camps, etc using Mouse_Coordinates_Getter.java
